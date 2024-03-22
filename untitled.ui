@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="nome_do_botao">
+    <property name="geometry">
+     <rect>
+      <x>475</x>
+      <y>300</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+font-weight: bold;
+color: #FFFFFF;
+
+background-color: #3FB18D;
+
+border-style: outset;
+border-width: 2px;
+border-radius: 5px;
+border-top: #DADADA;
+border-right: #DADADA;
+border-bottom: #DADADA;
+border-left: #DADADA;
+}
+
+QPushButton:pressed {
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+font-weight: bold;
+color: #FFFFFF;
+
+background-color: #3FB18D;
+
+border-style: outset;
+border-width: 2px;
+border-radius: 5px;
+border-color: #000000
+}
+
+QPushButton:hover{
+color: #D3D3D3;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>OI</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nome_do_campo">
+    <property name="geometry">
+     <rect>
+      <x>406</x>
+      <y>250</y>
+      <width>245</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+font: 11pt &quot;MS Shell Dlg 2&quot;;
+background-color: #FFFFFF;
+height: 25px;
+border-radius: 5px;
+border-style: outset;
+border-width: 1px;
+border-color: #6B6E6C
+
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
